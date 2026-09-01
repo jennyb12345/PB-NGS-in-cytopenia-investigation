@@ -1,6 +1,7 @@
 # ============================================================
-# TABLE 1- BY PB NGS OUTCOME (VCS vs Neg), Exclude VUS and VCS germline only
+# TABLE 2- BY PB NGS OUTCOME (VCS vs Neg), Exclude VUS and VCS germline only
 # ============================================================
+
 # 1) Install/load required packages
 required_packages <- c("readxl", "dplyr", "gtsummary", "flextable", "stringr")
 missing_packages <- required_packages[!required_packages %in% installed.packages()[, "Package"]]
@@ -225,6 +226,8 @@ tbl_ngs <- df %>%
 # 10) View and export
 tbl_ngs
 save_as_docx(
-  as_flex_table(tbl_ngs), path = "Table1_by_PB_NGS_outcome.docx")
 
-cat("\nDone.\nFile created:\n- Table1_by_PB_NGS_outcome.docx\n")
+  as_flex_table(tbl_ngs), path = "Table2_by_PB_NGS_outcome.docx")
+
+cat("\nDone.\nFile created:\n- Table2_by_PB_NGS_outcome.docx\n")
+

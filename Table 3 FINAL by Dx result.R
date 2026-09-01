@@ -1,5 +1,5 @@
 # ============================================================
-# # TABLE 2- BY DIAGNOSTIC OUTCOME
+# TABLE 3- BY DIAGNOSTIC OUTCOME
 # Includes:
 # - Myeloid, Lymphoid, No evidence of haem cause (+ Overall)
 # - Excludes PB NGS classes: "VUS only", "VCS germline only"
@@ -196,6 +196,8 @@ tbl_dx <- df %>%
 
 # 9) View & export table
 tbl_dx
-save_as_docx(as_flex_table(tbl_dx), path = "Table2_by_Diagnostic_Outcome.docx")
 
-cat("\nDone.\nFile created:\n- Table2_by_Diagnostic_Outcome.docx\n")
+save_as_docx(as_flex_table(tbl_dx), path = "Table3_by_Diagnostic_Outcome.docx")
+
+cat("\nDone.\nFile created:\n- Table3_by_Diagnostic_Outcome.docx\n")
+

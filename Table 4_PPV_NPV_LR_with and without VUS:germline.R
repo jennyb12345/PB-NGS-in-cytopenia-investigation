@@ -1,5 +1,5 @@
 # ============================================================
-# Table 3 PB NGS POS predicts Myeloid
+# Table 4 PB NGS POS predicts Myeloid
 # Outputs: PPV, NPV, LR+, LR- with 95% CIs
 # Cohort A: EXCLUDING "VUS only" + "VCS germline only"
 # Cohort B: INCLUDING "VUS only" + "VCS germline only"
@@ -154,3 +154,4 @@ write.csv(counts_all, "PB_NGS_Myeloid_counts_compare_excluding_vs_including_VUS_
 cat("\nDone.\nFiles created:\n",
     "- PB_NGS_Myeloid_metrics_compare_excluding_vs_including_VUS_VCS.csv\n",
     "- PB_NGS_Myeloid_counts_compare_excluding_vs_including_VUS_VCS.csv\n")
+

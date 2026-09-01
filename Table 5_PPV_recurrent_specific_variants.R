@@ -1,5 +1,5 @@
 # ============================================================
-# Table 4- Recurrent specific variants (>=3) + PPV (95% CI) for Myeloid
+# Table 5- Recurrent specific variants (>=3) + PPV (95% CI) for Myeloid
 # Exclude VUS and VCS germline only= "path"/VCS variants only.
 # ============================================================
 
@@ -153,3 +153,5 @@ write.csv(ppv_results, "PPV_recurrent_specific_variants_myeloid_95CI.csv", row.n
 cat("\nDone.\nFiles created:\n",
     "- recurrent_specific_variants_counts.csv\n",
     "- PPV_recurrent_specific_variants_myeloid_95CI.csv\n")
+
+
