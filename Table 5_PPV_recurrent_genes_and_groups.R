@@ -1,5 +1,5 @@
 # ============================================================
-# Table 4 PPV of recurrent genes (>=6 detections) for Myeloid outcome
+# Table 5 PPV of recurrent genes (>=6 detections) for Myeloid outcome
 # with 95% CI
 # Exclude VUS and VCS-germline only
 # ============================================================
