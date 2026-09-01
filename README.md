@@ -9,7 +9,7 @@ Each script installs/loads its own required packages at the top. R version and f
 
 # How to run
 1. Place the cleaned data file an appropriate folder and set as working directory— see Data availability note below.
-2. Run scripts as needed for each analysis (they are independent rather than sequential):
+2. Run scripts as needed for each analysis (they are independent rather than sequential).
 3. Outputs (tables, oncoplot) are saved locally when scripts are run and are presented as results in the accompanying dissertation; they are not stored in this repository.
 
 # Data availability
