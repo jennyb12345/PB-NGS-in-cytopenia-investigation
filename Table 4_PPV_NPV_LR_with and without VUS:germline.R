@@ -1,5 +1,5 @@
 # ============================================================
-# Table 3 PB NGS POS predicts Myeloid
+# Table 4 PB NGS POS predicts Myeloid
 # Outputs: PPV, NPV, LR+, LR- with 95% CIs
 # Cohort A: EXCLUDING "VUS only" + "VCS germline only"
 # Cohort B: INCLUDING "VUS only" + "VCS germline only"
